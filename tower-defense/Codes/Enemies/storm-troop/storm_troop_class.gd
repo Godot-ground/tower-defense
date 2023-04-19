@@ -1,5 +1,4 @@
-const EnemyModel=preload( "res://Codes/Core/enemy.gd" )
-class StormTroop extends EnemyModel.Enemy:
+extends Enemy
 	
 	func _init(speed=null ,animation=null ,damage=null ,health=null):
 		if(speed):spd=speed
