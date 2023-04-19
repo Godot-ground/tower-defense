@@ -1,4 +1,4 @@
-class Enemy:
+class_name Enemy
 	var spd=null
 	var ant=null
 	var dmg=null
