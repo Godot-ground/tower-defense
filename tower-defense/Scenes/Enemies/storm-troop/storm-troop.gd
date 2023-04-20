@@ -1,16 +1,14 @@
-extends Node
+extends Area2D
 
-
-# Called when the node enters the scene tree for the first time.
-var StormTroop= load("res://Codes/Enemies/storm-troop/storm-troop.gd")
+var cls 
 @export var speed = 300
 @export var animation = Animation
 @export var damage=1
 @export var health=100
 func _ready():
-	var fd=StormTroop.StormTroop.new(speed , animation , damage,health)
-	print(fd.getInfo())
-	pass # Replace with function body.
+	cls =  Storm_troop.new(speed,animation,damage,health)
+	print(cls.getInfo())
+
 
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
