@@ -1,6 +1,0 @@
-[gd_scene load_steps=2 format=3 uid="uid://biu3slfg4d1m0"]
-
-[ext_resource type="Script" path="res://Scenes/Enemies/storm-troop/storm-troop.gd" id="1_odxct"]
-
-[node name="storm-troop" type="Node2D"]
-script = ExtResource("1_odxct")
