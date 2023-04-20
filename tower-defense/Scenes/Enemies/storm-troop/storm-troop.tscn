@@ -1,0 +1,94 @@
+[gd_scene load_steps=2 format=3 uid="uid://c53xx3xp2u83d"]
+
+[ext_resource type="Texture2D" uid="uid://bvk2eqwvs0tfh" path="res://Arts/Enemies/storm-troops/storm-troops.png" id="1_b84o2"]
+
+[node name="storm-stroops" type="Node2D"]
+
+[node name="polygons" type="Node2D" parent="."]
+
+[node name="head" type="Polygon2D" parent="polygons"]
+texture = ExtResource("1_b84o2")
+skeleton = NodePath("../Skeleton2D")
+polygon = PackedVector2Array(31.5159, -0.745989, 42.9241, -0.745989, 49.8759, -0.924242, 57.0061, -1.81551, 59.8581, -0.745989, 64.8492, -1.459, 67.1665, -0.567736, 67.7012, 2.99733, 69.8403, 9.59269, 68.5925, 13.1578, 68.5925, 15.8316, 69.3055, 20.4661, 68.236, 26.8832, 64.6709, 27.7745, 60.0364, 27.7745, 53.7975, 29.3788, 52.3715, 29.2005, 46.1326, 28.6658, 40.072, 28.131, 38.646, 28.3093, 36.3287, 27.5963, 34.1897, 26.1702, 33.2984, 23.6747, 32.9419, 19.0401, 32.9419, 14.5838, 32.9419, 10.1275, 33.6549, 6.38414, 32.9419, 3.53209, 32.4071, 1.2148)
+uv = PackedVector2Array(31.5159, -0.745989, 42.9241, -0.745989, 49.8759, -0.924242, 57.0061, -1.81551, 59.8581, -0.745989, 64.8492, -1.459, 67.1665, -0.567736, 67.7012, 2.99733, 69.8403, 9.59269, 68.5925, 13.1578, 68.5925, 15.8316, 69.3055, 20.4661, 68.236, 26.8832, 64.6709, 27.7745, 60.0364, 27.7745, 53.7975, 29.3788, 52.3715, 29.2005, 46.1326, 28.6658, 40.072, 28.131, 38.646, 28.3093, 36.3287, 27.5963, 34.1897, 26.1702, 33.2984, 23.6747, 32.9419, 19.0401, 32.9419, 14.5838, 32.9419, 10.1275, 33.6549, 6.38414, 32.9419, 3.53209, 32.4071, 1.2148)
+bones = ["Skeleton2DBone2D", PackedFloat32Array(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0), "Skeleton2DBone2D/neck", PackedFloat32Array(0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0.5, 0, 0, 0), "Skeleton2DBone2D/neck/head", PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0.5, 1, 1, 1, 1, 1, 1, 1), "Skeleton2DBone2D/pelvis", PackedFloat32Array(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0), "Skeleton2DBone2D/pelvis/left-feet", PackedFloat32Array(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0), "Skeleton2DBone2D/pelvis/right-feet", PackedFloat32Array(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0)]
+
+[node name="body" type="Polygon2D" parent="polygons"]
+texture = ExtResource("1_b84o2")
+skeleton = NodePath("../Skeleton2D")
+polygon = PackedVector2Array(15.3017, 28.9623, 85.3448, 28.5313, 86.2069, 80.2554, 50.7641, 80.0419, 14.6552, 79.8244)
+uv = PackedVector2Array(15.3017, 28.9623, 85.3448, 28.5313, 86.2069, 80.2554, 50.7641, 80.0419, 14.6552, 79.8244)
+bones = ["Skeleton2DBone2D", PackedFloat32Array(1, 1, 1, 0, 1), "Skeleton2DBone2D/neck", PackedFloat32Array(0, 0, 0, 0, 0), "Skeleton2DBone2D/neck/head", PackedFloat32Array(0, 0, 0, 0, 0), "Skeleton2DBone2D/pelvis", PackedFloat32Array(0, 0, 1, 0.5, 1), "Skeleton2DBone2D/pelvis/left-feet", PackedFloat32Array(0, 0, 0, 0, 0), "Skeleton2DBone2D/pelvis/right-feet", PackedFloat32Array(0, 0, 0, 0, 0)]
+
+[node name="left-arm" type="Polygon2D" parent="polygons"]
+texture = ExtResource("1_b84o2")
+skeleton = NodePath("../Skeleton2D")
+polygon = PackedVector2Array(86.7886, 28.1002, 100.797, 50.945, 99.7196, 55.6864, 90.4524, 60.6433, 74.7196, 33.4882)
+uv = PackedVector2Array(86.7886, 28.1002, 100.797, 50.945, 99.7196, 55.6864, 90.4524, 60.6433, 74.7196, 33.4882)
+bones = ["Skeleton2DBone2D", PackedFloat32Array(0, 0, 0, 0, 0), "Skeleton2DBone2D/neck", PackedFloat32Array(0, 0, 0, 0, 0), "Skeleton2DBone2D/neck/left-arm", PackedFloat32Array(1, 0, 0, 0, 1), "Skeleton2DBone2D/neck/left-arm/larm", PackedFloat32Array(0, 1, 1, 1, 0), "Skeleton2DBone2D/neck/head", PackedFloat32Array(0, 0, 0, 0, 0), "Skeleton2DBone2D/neck/righ-arm", PackedFloat32Array(0, 0, 0, 0, 0), "Skeleton2DBone2D/neck/righ-arm/rarm", PackedFloat32Array(0, 0, 0, 0, 0), "Skeleton2DBone2D/pelvis", PackedFloat32Array(0, 0, 0, 0, 0), "Skeleton2DBone2D/pelvis/left-feet", PackedFloat32Array(0, 0, 0, 0, 0), "Skeleton2DBone2D/pelvis/right-feet", PackedFloat32Array(0, 0, 0, 0, 0)]
+
+[node name="right-arm" type="Polygon2D" parent="polygons"]
+texture = ExtResource("1_b84o2")
+skeleton = NodePath("../Skeleton2D")
+polygon = PackedVector2Array(16.53, 27.2381, 26.8748, 36.0744, 8.12479, 61.7209, -1.57349, 54.3933, -0.926941, 46.8502, 13.0817, 26.3761)
+uv = PackedVector2Array(16.53, 27.2381, 26.8748, 36.0744, 8.12479, 61.7209, -1.57349, 54.3933, -0.926941, 46.8502, 13.0817, 26.3761)
+bones = ["Skeleton2DBone2D", PackedFloat32Array(0, 0, 0, 0, 0, 0), "Skeleton2DBone2D/neck", PackedFloat32Array(0, 0, 0, 0, 0, 0), "Skeleton2DBone2D/neck/left-arm", PackedFloat32Array(0, 0, 0, 0, 0, 0), "Skeleton2DBone2D/neck/left-arm/larm", PackedFloat32Array(0, 0, 0, 0, 0, 0), "Skeleton2DBone2D/neck/head", PackedFloat32Array(0, 0, 0, 0, 0, 0), "Skeleton2DBone2D/neck/righ-arm", PackedFloat32Array(1, 1, 0.5, 0.5, 0.5, 1), "Skeleton2DBone2D/neck/righ-arm/rarm", PackedFloat32Array(0, 0, 0, 0, 0, 0), "Skeleton2DBone2D/pelvis", PackedFloat32Array(0, 0, 0, 0, 0, 0), "Skeleton2DBone2D/pelvis/left-feet", PackedFloat32Array(0, 0, 0, 0, 0, 0), "Skeleton2DBone2D/pelvis/right-feet", PackedFloat32Array(0, 0, 0, 0, 0, 0)]
+
+[node name="left-feet" type="Polygon2D" parent="polygons"]
+texture = ExtResource("1_b84o2")
+skeleton = NodePath("../Skeleton2D")
+polygon = PackedVector2Array(51.6398, 78.1603, 65.187, 77.8037, 65.5435, 99.7278, 50.7485, 100.084)
+uv = PackedVector2Array(51.6398, 78.1603, 65.187, 77.8037, 65.5435, 99.7278, 50.7485, 100.084)
+bones = ["Skeleton2DBone2D", PackedFloat32Array(0, 0, 0, 0), "Skeleton2DBone2D/neck", PackedFloat32Array(0, 0, 0, 0), "Skeleton2DBone2D/neck/head", PackedFloat32Array(0, 0, 0, 0), "Skeleton2DBone2D/pelvis", PackedFloat32Array(0, 0, 0, 0), "Skeleton2DBone2D/pelvis/left-feet", PackedFloat32Array(1, 1, 1, 1), "Skeleton2DBone2D/pelvis/right-feet", PackedFloat32Array(0, 0, 0, 0)]
+
+[node name="right-feet" type="Polygon2D" parent="polygons"]
+texture = ExtResource("1_b84o2")
+skeleton = NodePath("../Skeleton2D")
+polygon = PackedVector2Array(28.2886, 77.6244, 41.8358, 77.8027, 41.8358, 100.084, 27.5756, 100.263)
+uv = PackedVector2Array(28.2886, 77.6244, 41.8358, 77.8027, 41.8358, 100.084, 27.5756, 100.263)
+bones = ["Skeleton2DBone2D", PackedFloat32Array(0, 0, 0, 0), "Skeleton2DBone2D/neck", PackedFloat32Array(0, 0, 0, 0), "Skeleton2DBone2D/neck/head", PackedFloat32Array(0, 0, 0, 0), "Skeleton2DBone2D/pelvis", PackedFloat32Array(0, 0, 0, 0), "Skeleton2DBone2D/pelvis/left-feet", PackedFloat32Array(0, 0, 0, 0), "Skeleton2DBone2D/pelvis/right-feet", PackedFloat32Array(1, 1, 1, 1)]
+
+[node name="Skeleton2D" type="Skeleton2D" parent="polygons"]
+position = Vector2(49, 63)
+
+[node name="Skeleton2DBone2D" type="Bone2D" parent="polygons/Skeleton2D"]
+position = Vector2(0, -9)
+rest = Transform2D(1, 0, 0, 1, 0, -9)
+
+[node name="neck" type="Bone2D" parent="polygons/Skeleton2D/Skeleton2DBone2D"]
+position = Vector2(-3, -27)
+scale = Vector2(0.879999, 1)
+rest = Transform2D(0.879999, 0, 0, 1, -3, -27)
+
+[node name="left-arm" type="Bone2D" parent="polygons/Skeleton2D/Skeleton2DBone2D/neck"]
+position = Vector2(42.0455, 7)
+rest = Transform2D(1, 0, 0, 1, 42.0455, 7)
+
+[node name="larm" type="Bone2D" parent="polygons/Skeleton2D/Skeleton2DBone2D/neck/left-arm"]
+position = Vector2(12.5, 19)
+rest = Transform2D(1, 0, 0, 1, 12.5, 19)
+
+[node name="head" type="Bone2D" parent="polygons/Skeleton2D/Skeleton2DBone2D/neck"]
+position = Vector2(3.8147e-06, -20)
+rest = Transform2D(1, 0, 0, 1, 3.8147e-06, -20)
+
+[node name="righ-arm" type="Bone2D" parent="polygons/Skeleton2D/Skeleton2DBone2D/neck"]
+position = Vector2(-36.3637, 7)
+rest = Transform2D(1, 0, 0, 1, -36.3637, 7)
+
+[node name="rarm" type="Bone2D" parent="polygons/Skeleton2D/Skeleton2DBone2D/neck/righ-arm"]
+position = Vector2(-13.6364, 19)
+rest = Transform2D(1, 0, 0, 1, -13.6364, 19)
+
+[node name="pelvis" type="Bone2D" parent="polygons/Skeleton2D/Skeleton2DBone2D"]
+position = Vector2(0, 20)
+scale = Vector2(0.879999, 1)
+rest = Transform2D(0.879999, 0, 0, 1, 0, 20)
+
+[node name="left-feet" type="Bone2D" parent="polygons/Skeleton2D/Skeleton2DBone2D/pelvis"]
+position = Vector2(7, 20)
+rest = Transform2D(1, 0, 0, 1, 7, 20)
+
+[node name="right-feet" type="Bone2D" parent="polygons/Skeleton2D/Skeleton2DBone2D/pelvis"]
+position = Vector2(-19, 22)
+rest = Transform2D(1, 0, 0, 1, -19, 22)
