@@ -1,5 +1,5 @@
 extends Enemy
-class_name Storm_troop
+class_name StormTroop
 func _init(speed=null ,animation=null ,damage=null ,health=null):
 		if(speed):spd=speed
 		if(animation):ant=animation

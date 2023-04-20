@@ -6,7 +6,7 @@ var cls
 @export var damage=1
 @export var health=100
 func _ready():
-	cls =  Storm_troop.new(speed,animation,damage,health)
+	cls =  StormTroop.new(speed,animation,damage,health)
 	print(cls.getInfo())
 
 
