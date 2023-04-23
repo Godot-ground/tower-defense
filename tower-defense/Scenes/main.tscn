@@ -1,9 +1,7 @@
-[gd_scene load_steps=4 format=3 uid="uid://b2x5wxvlxbvx2"]
+[gd_scene load_steps=3 format=3 uid="uid://b2x5wxvlxbvx2"]
 
 [ext_resource type="Script" path="res://Codes/Resources/Tests/test-cases.gd" id="1_4kbdj"]
-[ext_resource type="PackedScene" uid="uid://biu3slfg4d1m0" path="res://Scenes/Enemies/storm-troop/storm-troop.tscn" id="1_4387s"]
-
-[sub_resource type="Animation" id="Animation_ulrl8"]
+[ext_resource type="PackedScene" uid="uid://bcb0xbjyxqiba" path="res://Scenes/Enemies/storm-troop/storm-troop.tscn" id="1_4387s"]
 
 [node name="main" type="Node2D"]
 
@@ -11,6 +9,4 @@
 script = ExtResource("1_4kbdj")
 
 [node name="storm-troop" parent="." instance=ExtResource("1_4387s")]
-animation = SubResource("Animation_ulrl8")
-damage = 3
-health = 2600
+position = Vector2(82, 531)
