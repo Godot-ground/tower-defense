@@ -1,0 +1,4 @@
+- heroes for artists
+- heroes is just a picture 
+- we can set several skin for heroes
+- just make one figure for each skins

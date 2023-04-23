@@ -1,0 +1,3 @@
+- the arts contains backgrounds
+- need to make effects arts in a folder
+- call the grounds and background a good name like dragon casttle for a level.and the effect and lights can be place in one folder for each name

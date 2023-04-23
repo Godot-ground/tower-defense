@@ -1,0 +1,4 @@
+- enemies for artists
+- enemies is just a picture 
+- we can set several skin for enemies
+- just make one figure for each skins
